@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "nextId": 1049,
+  "users": [
+    {
+      "id": "ana",
+      "name": "Ana Costa",
+      "role": "solicitante"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno Silva",
+      "role": "gestor"
+    },
+    {
+      "id": "marina",
+      "name": "Marina Rocha",
+      "role": "gestor"
+    },
+    {
+      "id": "diego",
+      "name": "Diego Santos",
+      "role": "solicitante"
+    }
+  ],
+  "demands": [
+    {
+      "id": "DEM-1048",
+      "title": "Monitor para estação de trabalho",
+      "description": "Aquisição de um monitor de 27 polegadas para organizar as atividades da equipe.",
+      "area": "Engenharia",
+      "amountCents": 120000,
+      "priority": "Alta",
+      "status": "Nova",
+      "requesterId": "ana",
+      "version": 1,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-10T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1048-1",
+          "actorId": "ana",
+          "actorName": "Ana Costa",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1047",
+      "title": "Licenças para a equipe de design",
+      "description": "Renovação das ferramentas utilizadas nos próximos projetos.",
+      "area": "Design",
+      "amountCents": 360000,
+      "priority": "Média",
+      "status": "Em andamento",
+      "requesterId": "marina",
+      "version": 2,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-11T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1047-1",
+          "actorId": "marina",
+          "actorName": "Marina Rocha",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        },
+        {
+          "id": "seed-1047-2",
+          "actorId": "marina",
+          "actorName": "Marina Rocha",
+          "at": "2026-09-11T13:00:00.000Z",
+          "kind": "started",
+          "message": "Iniciou a execução."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1046",
+      "title": "Treinamento de acessibilidade",
+      "description": "Capacitação prática para tornar os produtos digitais mais acessíveis.",
+      "area": "Engenharia",
+      "amountCents": 450000,
+      "priority": "Média",
+      "status": "Nova",
+      "requesterId": "bruno",
+      "version": 1,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-10T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1046-1",
+          "actorId": "bruno",
+          "actorName": "Bruno Silva",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1045",
+      "title": "Equipamentos para novos integrantes",
+      "description": "Preparação dos equipamentos para receber duas pessoas na equipe.",
+      "area": "Operações",
+      "amountCents": 840000,
+      "priority": "Alta",
+      "status": "Em andamento",
+      "requesterId": "diego",
+      "version": 2,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-11T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1045-1",
+          "actorId": "diego",
+          "actorName": "Diego Santos",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        },
+        {
+          "id": "seed-1045-2",
+          "actorId": "diego",
+          "actorName": "Diego Santos",
+          "at": "2026-09-11T13:00:00.000Z",
+          "kind": "started",
+          "message": "Iniciou a execução."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1044",
+      "title": "Pesquisa com clientes",
+      "description": "Apoio para organizar entrevistas e sintetizar aprendizados de produto.",
+      "area": "Produto",
+      "amountCents": 280000,
+      "priority": "Média",
+      "status": "Nova",
+      "requesterId": "ana",
+      "version": 1,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-10T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1044-1",
+          "actorId": "ana",
+          "actorName": "Ana Costa",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1043",
+      "title": "Materiais para o encontro da equipe",
+      "description": "Materiais de apoio para a próxima reunião presencial de planejamento.",
+      "area": "Operações",
+      "amountCents": 65000,
+      "priority": "Baixa",
+      "status": "Concluída",
+      "requesterId": "marina",
+      "version": 3,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-12T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1043-1",
+          "actorId": "marina",
+          "actorName": "Marina Rocha",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        },
+        {
+          "id": "seed-1043-2",
+          "actorId": "marina",
+          "actorName": "Marina Rocha",
+          "at": "2026-09-11T13:00:00.000Z",
+          "kind": "started",
+          "message": "Iniciou a execução."
+        },
+        {
+          "id": "seed-1043-3",
+          "actorId": "marina",
+          "actorName": "Marina Rocha",
+          "at": "2026-09-12T13:00:00.000Z",
+          "kind": "completed",
+          "message": "Concluiu a demanda."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1042",
+      "title": "Revisão da identidade do produto",
+      "description": "Atualização dos materiais visuais utilizados nas comunicações.",
+      "area": "Design",
+      "amountCents": 220000,
+      "priority": "Baixa",
+      "status": "Em andamento",
+      "requesterId": "bruno",
+      "version": 2,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-11T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1042-1",
+          "actorId": "bruno",
+          "actorName": "Bruno Silva",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        },
+        {
+          "id": "seed-1042-2",
+          "actorId": "bruno",
+          "actorName": "Bruno Silva",
+          "at": "2026-09-11T13:00:00.000Z",
+          "kind": "started",
+          "message": "Iniciou a execução."
+        }
+      ]
+    },
+    {
+      "id": "DEM-1041",
+      "title": "Livros para a biblioteca da equipe",
+      "description": "Referências para os estudos e grupos de leitura da equipe.",
+      "area": "Engenharia",
+      "amountCents": 98000,
+      "priority": "Baixa",
+      "status": "Concluída",
+      "requesterId": "ana",
+      "version": 3,
+      "createdAt": "2026-09-10T13:00:00.000Z",
+      "updatedAt": "2026-09-12T13:00:00.000Z",
+      "history": [
+        {
+          "id": "seed-1041-1",
+          "actorId": "ana",
+          "actorName": "Ana Costa",
+          "at": "2026-09-10T13:00:00.000Z",
+          "kind": "created",
+          "message": "Registrou a demanda."
+        },
+        {
+          "id": "seed-1041-2",
+          "actorId": "ana",
+          "actorName": "Ana Costa",
+          "at": "2026-09-11T13:00:00.000Z",
+          "kind": "started",
+          "message": "Iniciou a execução."
+        },
+        {
+          "id": "seed-1041-3",
+          "actorId": "ana",
+          "actorName": "Ana Costa",
+          "at": "2026-09-12T13:00:00.000Z",
+          "kind": "completed",
+          "message": "Concluiu a demanda."
+        }
+      ]
+    }
+  ]
+}
